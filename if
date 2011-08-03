@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NUMERO=9
+if [ -n "$NUMERO" ]
+	then
+	echo $NUMERO
+else
+	echo "Vazio"
+fi
+
